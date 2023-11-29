@@ -1,0 +1,93 @@
+<DOCTYPE html>
+<html lang-"en">
+	<head>
+		<title>CSFA1</title>
+	<style>
+		a{
+		text-decoration: none;
+			}
+		#link1:link{
+			color: black;
+			background-color: beige;
+			font-size: 50px;
+			text-decoration: none;
+			}
+		#link2:link{
+			position: absolute;
+			left: 200px;
+			top: 10px;
+			background-color: beige;
+			font-size: 50px;
+			text-decoration: none;
+			}
+		a#link1{
+			color: black;
+			background-color: #d4367a;
+			}
+		a#link1:active{
+			color: pink;
+			background-color: #c91739;
+			}
+		a#link1:visited{
+			color:aqua;
+			background-color:#6aa5df;
+			}
+		a#link1:hover{
+			color:green;
+			background-color:#8e8eab;
+			}
+		a#link2{
+			color: black;
+			background-color: #c6f6c7;
+			}
+		a#link2:active{
+			color: black;
+			background-color: #897855;
+			}
+		a#link2:visited{
+			color:orange;
+			background-color:#3541a1;
+			}
+		a#link2:hover{
+			color:lavender;
+			background-color:#249fc5;
+			}
+		div#box1{
+			margin-top: 50px;
+			border: 1px solid;
+			}
+		div#box1:target{
+			color: white;
+			background-color: #03fcbe;
+			}
+		div#box2{
+			margin-top: 150px;
+			border: 1px solid;
+			}		
+		div#box2:target{
+			border: 10px dotted green;
+			}
+		#box1{
+			position: absolute;
+			float: left;
+			height: 150px;
+			top: 50px;
+			width: 150px;
+			}
+		#box2{
+			position: absolute;
+			float: left;
+			height: 150px;
+			top: 150px;
+			width: 150px;
+			}
+	</style>
+	</head>
+	<body>
+		<a href="#box1" id="link1">First link</a><br>
+		<div id="box1">Div 1 here</div><br>
+		
+		<a href="#box2" id="link2">Second link</a><br>
+		<div id="box2">Div 2 here</div><br>
+	</body>	
+</html>
